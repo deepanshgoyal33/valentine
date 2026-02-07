@@ -21,3 +21,14 @@ To get started with this project, follow these steps:
 3. Start the development server with `npm/pnpm/bun run dev`
 
 Now you're ready to ask the big question!
+
+## 🌐 Deployment 🌐
+
+To deploy this project to GitHub Pages:
+
+1. Ensure you have installed the `gh-pages` package: `npm install --save-dev gh-pages`.
+2. Add the `homepage` field and deployment scripts to `package.json` (see above).
+3. Run the following command to deploy:
+   ```bash
+   npm run deploy
+   ```
